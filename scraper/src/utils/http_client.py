@@ -1,7 +1,7 @@
 """
-HTTP client utilities for making resilient async requests with retry capabilities.
-Created by: gabes-machado
-Date: 2025-01-16
+HTTP client utilities for making resilient async requests.
+Author: gabes-machado
+Created: 2025-01-16 20:34:14 UTC
 """
 
 import asyncio
@@ -15,7 +15,6 @@ from asyncio import TimeoutError
 from aiohttp.client_exceptions import ClientError
 import backoff
 
-# Configure logging
 logger = logging.getLogger(__name__)
 
 class HTTPClientError(Exception):
@@ -50,6 +49,7 @@ class AsyncHTTPClient:
                 timeout=self.timeout,
                 headers={
                     'User-Agent': 'Mozilla/5.0 (compatible; CustomScraper/1.0; +http://example.com)',
+                    'Accept-Charset': 'ISO-8859-1,utf-8;q=0.7,*;q=0.3',
                 }
             )
 
@@ -98,7 +98,19 @@ class AsyncHTTPClient:
         try:
             async with self._session.get(url, params=params, **kwargs) as response:
                 response.raise_for_status()
-                return await response.text()
+                # Try different encodings
+                try:
+                    # First try ISO-8859-1 (Latin-1) as it's common in Brazilian websites
+                    content = await response.read()
+                    return content.decode('iso-8859-1')
+                except UnicodeDecodeError:
+                    try:
+                        # Then try UTF-8
+                        return content.decode('utf-8')
+                    except UnicodeDecodeError:
+                        # If both fail, try to detect encoding from response headers
+                        encoding = response.charset or 'utf-8'
+                        return content.decode(encoding)
 
         except Exception as e:
             logger.error(f"Error fetching {url}: {str(e)}")

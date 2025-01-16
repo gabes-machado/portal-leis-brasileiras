@@ -1,0 +1,2242 @@
+{
+  "conteudo": [
+    {
+      "classe": "texto",
+      "numero": null,
+      "texto": "Presidência da República Casa Civil Subchefia para Assuntos Jurídicos"
+    },
+    {
+      "classe": "texto",
+      "numero": null,
+      "texto": "CONSTITUIÇÃO DA REPÚBLICA FEDERATIVA DO BRASIL DE 1988"
+    },
+    {
+      "classe": "texto",
+      "numero": null,
+      "texto": "Vide Emenda Constitucional nº 91, de 2016"
+    },
+    {
+      "classe": "texto",
+      "numero": null,
+      "texto": "Vide Emenda Constitucional nº 106, de 2020"
+    },
+    {
+      "classe": "texto",
+      "numero": null,
+      "texto": "Vide Emenda Constitucional nº 107, de 2020"
+    },
+    {
+      "classe": "texto",
+      "numero": null,
+      "texto": "(Vide Emenda Constitucional nº 132, de 2023) Vigência"
+    },
+    {
+      "classe": "texto",
+      "numero": null,
+      "texto": "(Vide Emenda Constitucional nº 132, de 2023) Vigência"
+    },
+    {
+      "classe": "texto",
+      "numero": null,
+      "texto": "Ato das Disposições Constitucionais Transitórias"
+    },
+    {
+      "classe": "paragrafo",
+      "numero": "3º",
+      "texto": "Atos decorrentes do disposto no § 3º do art. 5º"
+    },
+    {
+      "classe": "paragrafo",
+      "numero": "3º",
+      "texto": "ÍNDICE TEMÁTICO"
+    },
+    {
+      "classe": "paragrafo",
+      "numero": "3º",
+      "texto": "Texto compilado"
+    },
+    {
+      "classe": "paragrafo",
+      "numero": "3º",
+      "texto": "PREÂMBULO"
+    },
+    {
+      "classe": "paragrafo",
+      "numero": "3º",
+      "texto": "Nós, representantes do povo brasileiro, reunidos em Assembléia Nacional Constituinte para instituir um Estado Democrático, destinado a assegurar o exercício dos direitos sociais e individuais, a liberdade, a segurança, o bem-estar, o desenvolvimento, a igualdade e a justiça como valores supremos de uma sociedade fraterna, pluralista e sem preconceitos, fundada na harmonia social e comprometida, na ordem interna e internacional, com a solução pacífica das controvérsias, promulgamos, sob a proteção de Deus, a seguinte CONSTITUIÇÃO DA REPÚBLICA FEDERATIVA DO BRASIL."
+    }
+  ],
+  "titulos": {
+    "TÍTULO I": {
+      "conteudo": [
+        {
+          "classe": "paragrafo",
+          "numero": "3º",
+          "texto": "TÍTULO I"
+        },
+        {
+          "classe": "paragrafo",
+          "numero": "3º",
+          "texto": "Dos Princípios Fundamentais"
+        },
+        {
+          "classe": "paragrafo",
+          "numero": "3º",
+          "texto": "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:"
+        },
+        {
+          "classe": "inciso",
+          "numero": "I",
+          "texto": "I - a soberania;"
+        },
+        {
+          "classe": "inciso",
+          "numero": "II",
+          "texto": "II - a cidadania;"
+        },
+        {
+          "classe": "inciso",
+          "numero": "III",
+          "texto": "III - a dignidade da pessoa humana;"
+        },
+        {
+          "classe": "inciso",
+          "numero": "IV",
+          "texto": "IV - os valores sociais do trabalho e da livre iniciativa; (Vide Lei nº 13.874, de 2019)"
+        },
+        {
+          "classe": "inciso",
+          "numero": "V",
+          "texto": "V - o pluralismo político."
+        },
+        {
+          "classe": "inciso",
+          "numero": "V",
+          "texto": "Parágrafo único. Todo o poder emana do povo, que o exerce por meio de representantes eleitos ou diretamente, nos termos desta Constituição."
+        },
+        {
+          "classe": "inciso",
+          "numero": "V",
+          "texto": "Art. 2º São Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário."
+        },
+        {
+          "classe": "inciso",
+          "numero": "V",
+          "texto": "Art. 3º Constituem objetivos fundamentais da República Federativa do Brasil:"
+        },
+        {
+          "classe": "inciso",
+          "numero": "I",
+          "texto": "I - construir uma sociedade livre, justa e solidária;"
+        },
+        {
+          "classe": "inciso",
+          "numero": "II",
+          "texto": "II - garantir o desenvolvimento nacional;"
+        },
+        {
+          "classe": "inciso",
+          "numero": "III",
+          "texto": "III - erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais;"
+        },
+        {
+          "classe": "inciso",
+          "numero": "IV",
+          "texto": "IV - promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação."
+        },
+        {
+          "classe": "inciso",
+          "numero": "IV",
+          "texto": "Art. 4º A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios:"
+        },
+        {
+          "classe": "inciso",
+          "numero": "I",
+          "texto": "I - independência nacional;"
+        },
+        {
+          "classe": "inciso",
+          "numero": "II",
+          "texto": "II - prevalência dos direitos humanos;"
+        },
+        {
+          "classe": "inciso",
+          "numero": "III",
+          "texto": "III - autodeterminação dos povos;"
+        },
+        {
+          "classe": "inciso",
+          "numero": "IV",
+          "texto": "IV - não-intervenção;"
+        },
+        {
+          "classe": "inciso",
+          "numero": "V",
+          "texto": "V - igualdade entre os Estados;"
+        },
+        {
+          "classe": "inciso",
+          "numero": "VI",
+          "texto": "VI - defesa da paz;"
+        },
+        {
+          "classe": "inciso",
+          "numero": "VII",
+          "texto": "VII - solução pacífica dos conflitos;"
+        },
+        {
+          "classe": "inciso",
+          "numero": "VIII",
+          "texto": "VIII - repúdio ao terrorismo e ao racismo;"
+        },
+        {
+          "classe": "inciso",
+          "numero": "IX",
+          "texto": "IX - cooperação entre os povos para o progresso da humanidade;"
+        },
+        {
+          "classe": "inciso",
+          "numero": "X",
+          "texto": "X - concessão de asilo político."
+        },
+        {
+          "classe": "inciso",
+          "numero": "X",
+          "texto": "Parágrafo único. A República Federativa do Brasil buscará a integração econômica, política, social e cultural dos povos da América Latina, visando à formação de uma comunidade latino-americana de nações."
+        }
+      ]
+    },
+    "TÍTULO II": {
+      "conteudo": [
+        {
+          "classe": "inciso",
+          "numero": "X",
+          "texto": "TÍTULO II"
+        },
+        {
+          "classe": "inciso",
+          "numero": "X",
+          "texto": "Dos Direitos e Garantias Fundamentais"
+        }
+      ],
+      "capitulos": {
+        "CAPÍTULO I": {
+          "conteudo": [
+            {
+              "classe": "inciso",
+              "numero": "X",
+              "texto": "CAPÍTULO I"
+            },
+            {
+              "classe": "inciso",
+              "numero": "X",
+              "texto": "DOS DIREITOS E DEVERES INDIVIDUAIS E COLETIVOS"
+            },
+            {
+              "classe": "inciso",
+              "numero": "X",
+              "texto": "Art. 5º Todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade, nos termos seguintes:"
+            },
+            {
+              "classe": "inciso",
+              "numero": "I",
+              "texto": "I - homens e mulheres são iguais em direitos e obrigações, nos termos desta Constituição;"
+            },
+            {
+              "classe": "inciso",
+              "numero": "II",
+              "texto": "II - ninguém será obrigado a fazer ou deixar de fazer alguma coisa senão em virtude de lei;"
+            },
+            {
+              "classe": "inciso",
+              "numero": "III",
+              "texto": "III - ninguém será submetido a tortura nem a tratamento desumano ou degradante;"
+            },
+            {
+              "classe": "inciso",
+              "numero": "IV",
+              "texto": "IV - é livre a manifestação do pensamento, sendo vedado o anonimato;"
+            },
+            {
+              "classe": "inciso",
+              "numero": "V",
+              "texto": "V - é assegurado o direito de resposta, proporcional ao agravo, além da indenização por dano material, moral ou à imagem;"
+            },
+            {
+              "classe": "inciso",
+              "numero": "VI",
+              "texto": "VI - é inviolável a liberdade de consciência e de crença, sendo assegurado o livre exercício dos cultos religiosos e garantida, na forma da lei, a proteção aos locais de culto e a suas liturgias;"
+            },
+            {
+              "classe": "inciso",
+              "numero": "VII",
+              "texto": "VII - é assegurada, nos termos da lei, a prestação de assistência religiosa nas entidades civis e militares de internação coletiva;"
+            },
+            {
+              "classe": "inciso",
+              "numero": "VIII",
+              "texto": "VIII - ninguém será privado de direitos por motivo de crença religiosa ou de convicção filosófica ou política, salvo se as invocar para eximir-se de obrigação legal a todos imposta e recusar-se a cumprir prestação alternativa, fixada em lei;"
+            },
+            {
+              "classe": "inciso",
+              "numero": "IX",
+              "texto": "IX - é livre a expressão da atividade intelectual, artística, científica e de comunicação, independentemente de censura ou licença;"
+            },
+            {
+              "classe": "inciso",
+              "numero": "X",
+              "texto": "X - são invioláveis a intimidade, a vida privada, a honra e a imagem das pessoas, assegurado o direito a indenização pelo dano material ou moral decorrente de sua violação;"
+            },
+            {
+              "classe": "inciso",
+              "numero": "XI",
+              "texto": "XI - a casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia, por determinação judicial; (Vide Lei nº 13.105, de 2015) (Vigência)"
+            },
+            {
+              "classe": "inciso",
+              "numero": "XII",
+              "texto": "XII - é inviolável o sigilo da correspondência e das comunicações telegráficas, de dados e das comunicações telefônicas, salvo, no último caso, por ordem judicial, nas hipóteses e na forma que a lei estabelecer para fins de investigação criminal ou instrução processual penal; (Vide Lei nº 9.296, de 1996)"
+            },
+            {
+              "classe": "inciso",
+              "numero": "XIII",
+              "texto": "XIII - é livre o exercício de qualquer trabalho, ofício ou profissão, atendidas as qualificações profissionais que a lei estabelecer;"
+            },
+            {
+              "classe": "inciso",
+              "numero": "XIV",
+              "texto": "XIV - é assegurado a todos o acesso à informação e resguardado o sigilo da fonte, quando necessário ao exercício profissional;"
+            },
+            {
+              "classe": "inciso",
+              "numero": "XV",
+              "texto": "XV - é livre a locomoção no território nacional em tempo de paz, podendo qualquer pessoa, nos termos da lei, nele entrar, permanecer ou dele sair com seus bens;"
+            },
+            {
+              "classe": "inciso",
+              "numero": "XVI",
+              "texto": "XVI - todos podem reunir-se pacificamente, sem armas, em locais abertos ao público, independentemente de autorização, desde que não frustrem outra reunião anteriormente convocada para o mesmo local, sendo apenas exigido prévio aviso à autoridade competente;"
+            },
+            {
+              "classe": "inciso",
+              "numero": "XVII",
+              "texto": "XVII - é plena a liberdade de associação para fins lícitos, vedada a de caráter paramilitar;"
+            },
+            {
+              "classe": "inciso",
+              "numero": "XVIII",
+              "texto": "XVIII - a criação de associações e, na forma da lei, a de cooperativas independem de autorização, sendo vedada a interferência estatal em seu funcionamento;"
+            },
+            {
+              "classe": "inciso",
+              "numero": "XIX",
+              "texto": "XIX - as associações só poderão ser compulsoriamente dissolvidas ou ter suas atividades suspensas por decisão judicial, exigindo-se, no primeiro caso, o trânsito em julgado;"
+            },
+            {
+              "classe": "inciso",
+              "numero": "XX",
+              "texto": "XX - ninguém poderá ser compelido a associar-se ou a permanecer associado;"
+            },
+            {
+              "classe": "inciso",
+              "numero": "XXI",
+              "texto": "XXI - as entidades associativas, quando expressamente autorizadas, têm legitimidade para representar seus filiados judicial ou extrajudicialmente;"
+            },
+            {
+              "classe": "inciso",
+              "numero": "XXII",
+              "texto": "XXII - é garantido o direito de propriedade;"
+            },
+            {
+              "classe": "inciso",
+              "numero": "XXIII",
+              "texto": "XXIII - a propriedade atenderá a sua função social;"
+            },
+            {
+              "classe": "inciso",
+              "numero": "XXIV",
+              "texto": "XXIV - a lei estabelecerá o procedimento para desapropriação por necessidade ou utilidade pública, ou por interesse social, mediante justa e prévia indenização em dinheiro, ressalvados os casos previstos nesta Constituição;"
+            },
+            {
+              "classe": "inciso",
+              "numero": "XXV",
+              "texto": "XXV - no caso de iminente perigo público, a autoridade competente poderá usar de propriedade particular, assegurada ao proprietário indenização ulterior, se houver dano;"
+            },
+            {
+              "classe": "inciso",
+              "numero": "XXVI",
+              "texto": "XXVI - a pequena propriedade rural, assim definida em lei, desde que trabalhada pela família, não será objeto de penhora para pagamento de débitos decorrentes de sua atividade produtiva, dispondo a lei sobre os meios de financiar o seu desenvolvimento;"
+            },
+            {
+              "classe": "inciso",
+              "numero": "XXVII",
+              "texto": "XXVII - aos autores pertence o direito exclusivo de utilização, publicação ou reprodução de suas obras, transmissível aos herdeiros pelo tempo que a lei fixar;"
+            },
+            {
+              "classe": "inciso",
+              "numero": "XXVIII",
+              "texto": "XXVIII - são assegurados, nos termos da lei:"
+            },
+            {
+              "classe": "alinea",
+              "numero": "a)",
+              "texto": "a) a proteção às participações individuais em obras coletivas e à reprodução da imagem e voz humanas, inclusive nas atividades desportivas;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "b) o direito de fiscalização do aproveitamento econômico das obras que criarem ou de que participarem aos criadores, aos intérpretes e às respectivas representações sindicais e associativas;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "XXIX - a lei assegurará aos autores de inventos industriais privilégio temporário para sua utilização, bem como proteção às criações industriais, à propriedade das marcas, aos nomes de empresas e a outros signos distintivos, tendo em vista o interesse social e o desenvolvimento tecnológico e econômico do País;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "XXX - é garantido o direito de herança;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "XXXI - a sucessão de bens de estrangeiros situados no País será regulada pela lei brasileira em benefício do cônjuge ou dos filhos brasileiros, sempre que não lhes seja mais favorável a lei pessoal do \"de cujus\";"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "XXXII - o Estado promoverá, na forma da lei, a defesa do consumidor;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "XXXIII - todos têm direito a receber dos órgãos públicos informações de seu interesse particular, ou de interesse coletivo ou geral, que serão prestadas no prazo da lei, sob pena de responsabilidade, ressalvadas aquelas cujo sigilo seja imprescindível à segurança da sociedade e do Estado; (Regulamento) (Vide Lei nº 12.527, de 2011)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "XXXIV - são a todos assegurados, independentemente do pagamento de taxas:"
+            },
+            {
+              "classe": "alinea",
+              "numero": "a)",
+              "texto": "a) o direito de petição aos Poderes Públicos em defesa de direitos ou contra ilegalidade ou abuso de poder;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "b) a obtenção de certidões em repartições públicas, para defesa de direitos e esclarecimento de situações de interesse pessoal;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "XXXV - a lei não excluirá da apreciação do Poder Judiciário lesão ou ameaça a direito;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "XXXVI - a lei não prejudicará o direito adquirido, o ato jurídico perfeito e a coisa julgada;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "XXXVII - não haverá juízo ou tribunal de exceção;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "XXXVIII - é reconhecida a instituição do júri, com a organização que lhe der a lei, assegurados:"
+            },
+            {
+              "classe": "alinea",
+              "numero": "a)",
+              "texto": "a) a plenitude de defesa;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "b) o sigilo das votações;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "c)",
+              "texto": "c) a soberania dos veredictos;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "d) a competência para o julgamento dos crimes dolosos contra a vida;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XXXIX - não há crime sem lei anterior que o defina, nem pena sem prévia cominação legal;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XL - a lei penal não retroagirá, salvo para beneficiar o réu;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XLI - a lei punirá qualquer discriminação atentatória dos direitos e liberdades fundamentais;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XLII - a prática do racismo constitui crime inafiançável e imprescritível, sujeito à pena de reclusão, nos termos da lei;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XLIII - a lei considerará crimes inafiançáveis e insuscetíveis de graça ou anistia a prática da tortura , o tráfico ilícito de entorpecentes e drogas afins, o terrorismo e os definidos como crimes hediondos, por eles respondendo os mandantes, os executores e os que, podendo evitá-los, se omitirem; (Regulamento)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XLIV - constitui crime inafiançável e imprescritível a ação de grupos armados, civis ou militares, contra a ordem constitucional e o Estado Democrático;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XLV - nenhuma pena passará da pessoa do condenado, podendo a obrigação de reparar o dano e a decretação do perdimento de bens ser, nos termos da lei, estendidas aos sucessores e contra eles executadas, até o limite do valor do patrimônio transferido;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XLVI - a lei regulará a individualização da pena e adotará, entre outras, as seguintes:"
+            },
+            {
+              "classe": "alinea",
+              "numero": "a)",
+              "texto": "a) privação ou restrição da liberdade;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "b) perda de bens;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "c)",
+              "texto": "c) multa;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "d) prestação social alternativa;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "e)",
+              "texto": "e) suspensão ou interdição de direitos;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "e)",
+              "texto": "XLVII - não haverá penas:"
+            },
+            {
+              "classe": "alinea",
+              "numero": "a)",
+              "texto": "a) de morte, salvo em caso de guerra declarada, nos termos do art. 84, XIX;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "b) de caráter perpétuo;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "c)",
+              "texto": "c) de trabalhos forçados;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "d) de banimento;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "e)",
+              "texto": "e) cruéis;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "e)",
+              "texto": "XLVIII - a pena será cumprida em estabelecimentos distintos, de acordo com a natureza do delito, a idade e o sexo do apenado;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "e)",
+              "texto": "XLIX - é assegurado aos presos o respeito à integridade física e moral;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "e)",
+              "texto": "L - às presidiárias serão asseguradas condições para que possam permanecer com seus filhos durante o período de amamentação;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "e)",
+              "texto": "LI - nenhum brasileiro será extraditado, salvo o naturalizado, em caso de crime comum, praticado antes da naturalização, ou de comprovado envolvimento em tráfico ilícito de entorpecentes e drogas afins, na forma da lei;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "e)",
+              "texto": "LII - não será concedida extradição de estrangeiro por crime político ou de opinião;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "e)",
+              "texto": "LIII - ninguém será processado nem sentenciado senão pela autoridade competente;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "e)",
+              "texto": "LIV - ninguém será privado da liberdade ou de seus bens sem o devido processo legal;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "e)",
+              "texto": "LV - aos litigantes, em processo judicial ou administrativo, e aos acusados em geral são assegurados o contraditório e ampla defesa, com os meios e recursos a ela inerentes;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "e)",
+              "texto": "LVI - são inadmissíveis, no processo, as provas obtidas por meios ilícitos;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "e)",
+              "texto": "LVII - ninguém será considerado culpado até o trânsito em julgado de sentença penal condenatória;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "e)",
+              "texto": "LVIII - o civilmente identificado não será submetido a identificação criminal, salvo nas hipóteses previstas em lei; (Regulamento)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "e)",
+              "texto": "LIX - será admitida ação privada nos crimes de ação pública, se esta não for intentada no prazo legal;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "e)",
+              "texto": "LX - a lei só poderá restringir a publicidade dos atos processuais quando a defesa da intimidade ou o interesse social o exigirem;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "e)",
+              "texto": "LXI - ninguém será preso senão em flagrante delito ou por ordem escrita e fundamentada de autoridade judiciária competente, salvo nos casos de transgressão militar ou crime propriamente militar, definidos em lei;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "e)",
+              "texto": "LXII - a prisão de qualquer pessoa e o local onde se encontre serão comunicados imediatamente ao juiz competente e à família do preso ou à pessoa por ele indicada;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "e)",
+              "texto": "LXIII - o preso será informado de seus direitos, entre os quais o de permanecer calado, sendo-lhe assegurada a assistência da família e de advogado;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "e)",
+              "texto": "LXIV - o preso tem direito à identificação dos responsáveis por sua prisão ou por seu interrogatório policial;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "e)",
+              "texto": "LXV - a prisão ilegal será imediatamente relaxada pela autoridade judiciária;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "e)",
+              "texto": "LXVI - ninguém será levado à prisão ou nela mantido, quando a lei admitir a liberdade provisória, com ou sem fiança;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "e)",
+              "texto": "LXVII - não haverá prisão civil por dívida, salvo a do responsável pelo inadimplemento voluntário e inescusável de obrigação alimentícia e a do depositário infiel;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "e)",
+              "texto": "LXVIII - conceder-se-á \"habeas-corpus\" sempre que alguém sofrer ou se achar ameaçado de sofrer violência ou coação em sua liberdade de locomoção, por ilegalidade ou abuso de poder;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "e)",
+              "texto": "LXIX - conceder-se-á mandado de segurança para proteger direito líquido e certo, não amparado por \"habeas-corpus\" ou \"habeas-data\" , quando o responsável pela ilegalidade ou abuso de poder for autoridade pública ou agente de pessoa jurídica no exercício de atribuições do Poder Público;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "e)",
+              "texto": "LXX - o mandado de segurança coletivo pode ser impetrado por:"
+            },
+            {
+              "classe": "alinea",
+              "numero": "a)",
+              "texto": "a) partido político com representação no Congresso Nacional;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "b) organização sindical, entidade de classe ou associação legalmente constituída e em funcionamento há pelo menos um ano, em defesa dos interesses de seus membros ou associados;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "LXXI - conceder-se-á mandado de injunção sempre que a falta de norma regulamentadora torne inviável o exercício dos direitos e liberdades constitucionais e das prerrogativas inerentes à nacionalidade, à soberania e à cidadania;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "LXXII - conceder-se-á \"habeas-data\":"
+            },
+            {
+              "classe": "alinea",
+              "numero": "a)",
+              "texto": "a) para assegurar o conhecimento de informações relativas à pessoa do impetrante, constantes de registros ou bancos de dados de entidades governamentais ou de caráter público;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "b) para a retificação de dados, quando não se prefira fazê-lo por processo sigiloso, judicial ou administrativo;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "LXXIII - qualquer cidadão é parte legítima para propor ação popular que vise a anular ato lesivo ao patrimônio público ou de entidade de que o Estado participe, à moralidade administrativa, ao meio ambiente e ao patrimônio histórico e cultural, ficando o autor, salvo comprovada má-fé, isento de custas judiciais e do ônus da sucumbência;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "LXXIV - o Estado prestará assistência jurídica integral e gratuita aos que comprovarem insuficiência de recursos;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "LXXV - o Estado indenizará o condenado por erro judiciário, assim como o que ficar preso além do tempo fixado na sentença;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "LXXVI - são gratuitos para os reconhecidamente pobres, na forma da lei: (Vide Lei nº 7.844, de 1989)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "a)",
+              "texto": "a) o registro civil de nascimento;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "b) a certidão de óbito;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "LXXVII - são gratuitas as ações de \"habeas-corpus\" e \"habeas-data\", e, na forma da lei, os atos necessários ao exercício da cidadania. (Regulamento)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "LXXVIII - a todos, no âmbito judicial e administrativo, são assegurados a razoável duração do processo e os meios que garantam a celeridade de sua tramitação. (Incluído pela Emenda Constitucional nº 45, de 2004) (Vide ADIN 3392)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "LXXIX - é assegurado, nos termos da lei, o direito à proteção dos dados pessoais, inclusive nos meios digitais. (Incluído pela Emenda Constitucional nº 115, de 2022)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "§ 1º As normas definidoras dos direitos e garantias fundamentais têm aplicação imediata."
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "§ 2º Os direitos e garantias expressos nesta Constituição não excluem outros decorrentes do regime e dos princípios por ela adotados, ou dos tratados internacionais em que a República Federativa do Brasil seja parte."
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "§ 3º Os tratados e convenções internacionais sobre direitos humanos que forem aprovados, em cada Casa do Congresso Nacional, em dois turnos, por três quintos dos votos dos respectivos membros, serão equivalentes às emendas constitucionais. (Incluído pela Emenda Constitucional nº 45, de 2004) (Vide ADIN 3392) ( Vide Atos decorrentes do disposto no § 3º do art. 5º da Constituição)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "§ 4º O Brasil se submete à jurisdição de Tribunal Penal Internacional a cuja criação tenha manifestado adesão. (Incluído pela Emenda Constitucional nº 45, de 2004)"
+            }
+          ]
+        },
+        "CAPÍTULO II": {
+          "conteudo": [
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "CAPÍTULO II"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "DOS DIREITOS SOCIAIS"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "Art. 6º São direitos sociais a educação, a saúde, a alimentação, o trabalho, a moradia, o transporte, o lazer, a segurança, a previdência social, a proteção à maternidade e à infância, a assistência aos desamparados, na forma desta Constituição. (Redação dada pela Emenda Constitucional nº 90, de 2015)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "Parágrafo único. Todo brasileiro em situação de vulnerabilidade social terá direito a uma renda básica familiar, garantida pelo poder público em programa permanente de transferência de renda, cujas normas e requisitos de acesso serão determinados em lei, observada a legislação fiscal e orçamentária (Incluído pela Emenda Constitucional nº 114, de 2021) (Vide Lei nº 14.601, de 2023)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "Art. 7º São direitos dos trabalhadores urbanos e rurais, além de outros que visem à melhoria de sua condição social:"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "I - relação de emprego protegida contra despedida arbitrária ou sem justa causa, nos termos de lei complementar, que preverá indenização compensatória, dentre outros direitos;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "II - seguro-desemprego, em caso de desemprego involuntário;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "III - fundo de garantia do tempo de serviço;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "IV - salário mínimo, fixado em lei, nacionalmente unificado, capaz de atender a suas necessidades vitais básicas e às de sua família com moradia, alimentação, educação, saúde, lazer, vestuário, higiene, transporte e previdência social, com reajustes periódicos que lhe preservem o poder aquisitivo, sendo vedada sua vinculação para qualquer fim;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "V - piso salarial proporcional à extensão e à complexidade do trabalho;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "VI - irredutibilidade do salário, salvo o disposto em convenção ou acordo coletivo;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "VII - garantia de salário, nunca inferior ao mínimo, para os que percebem remuneração variável;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "VIII - décimo terceiro salário com base na remuneração integral ou no valor da aposentadoria;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "IX - remuneração do trabalho noturno superior à do diurno;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "X - proteção do salário na forma da lei, constituindo crime sua retenção dolosa;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "XI - participação nos lucros, ou resultados, desvinculada da remuneração, e, excepcionalmente, participação na gestão da empresa, conforme definido em lei;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "XII - salário-família pago em razão do dependente do trabalhador de baixa renda nos termos da lei; (Redação dada pela Emenda Constitucional nº 20, de 1998)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "XIII - duração do trabalho normal não superior a oito horas diárias e quarenta e quatro semanais, facultada a compensação de horários e a redução da jornada, mediante acordo ou convenção coletiva de trabalho; (Vide Decreto-Lei nº 5.452, de 1943)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "XIV - jornada de seis horas para o trabalho realizado em turnos ininterruptos de revezamento, salvo negociação coletiva;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "XV - repouso semanal remunerado, preferencialmente aos domingos;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "XVI - remuneração do serviço extraordinário superior, no mínimo, em cinqüenta por cento à do normal; (Vide Del 5.452, art. 59 § 1º)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "XVII - gozo de férias anuais remuneradas com, pelo menos, um terço a mais do que o salário normal;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "XVIII - licença à gestante, sem prejuízo do emprego e do salário, com a duração de cento e vinte dias;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "XIX - licença-paternidade, nos termos fixados em lei;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "XX - proteção do mercado de trabalho da mulher, mediante incentivos específicos, nos termos da lei;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "XXI - aviso prévio proporcional ao tempo de serviço, sendo no mínimo de trinta dias, nos termos da lei;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "XXII - redução dos riscos inerentes ao trabalho, por meio de normas de saúde, higiene e segurança;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "XXIII - adicional de remuneração para as atividades penosas, insalubres ou perigosas, na forma da lei;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "XXIV - aposentadoria;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "XXV - assistência gratuita aos filhos e dependentes desde o nascimento até 5 (cinco) anos de idade em creches e pré-escolas; (Redação dada pela Emenda Constitucional nº 53, de 2006)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "XXVI - reconhecimento das convenções e acordos coletivos de trabalho;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "XXVII - proteção em face da automação, na forma da lei;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "XXVIII - seguro contra acidentes de trabalho, a cargo do empregador, sem excluir a indenização a que este está obrigado, quando incorrer em dolo ou culpa;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "a)",
+              "texto": "a) b)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "a)",
+              "texto": "XXIX - ação, quanto aos créditos resultantes das relações de trabalho, com prazo prescricional de cinco anos para os trabalhadores urbanos e rurais, até o limite de dois anos após a extinção do contrato de trabalho; (Redação dada pela Emenda Constitucional nº 28, de 2000)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "a)",
+              "texto": "a) (Revogada). (Redação dada pela Emenda Constitucional nº 28, de 2000)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "b) (Revogada). (Redação dada pela Emenda Constitucional nº 28, de 2000)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "XXX - proibição de diferença de salários, de exercício de funções e de critério de admissão por motivo de sexo, idade, cor ou estado civil;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "XXXI - proibição de qualquer discriminação no tocante a salário e critérios de admissão do trabalhador portador de deficiência;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "XXXII - proibição de distinção entre trabalho manual, técnico e intelectual ou entre os profissionais respectivos;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "- ;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "XXXIII - proibição de trabalho noturno, perigoso ou insalubre a menores de dezoito e de qualquer trabalho a menores de dezesseis anos, salvo na condição de aprendiz, a partir de quatorze anos; (Redação dada pela Emenda Constitucional nº 20, de 1998)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "XXXIV - igualdade de direitos entre o trabalhador com vínculo empregatício permanente e o trabalhador avulso"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "Parágrafo único. São assegurados à categoria dos trabalhadores domésticos os direitos previstos nos incisos IV, VI, VII, VIII, X, XIII, XV, XVI, XVII, XVIII, XIX, XXI, XXII, XXIV, XXVI, XXX, XXXI e XXXIII e, atendidas as condições estabelecidas em lei e observada a simplificação do cumprimento das obrigações tributárias, principais e acessórias, decorrentes da relação de trabalho e suas peculiaridades, os previstos nos incisos I, II, III, IX, XII, XXV e XXVIII, bem como a sua integração à previdência social. (Redação dada pela Emenda Constitucional nº 72, de 2013)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "Art. 8º É livre a associação profissional ou sindical, observado o seguinte:"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "I - a lei não poderá exigir autorização do Estado para a fundação de sindicato, ressalvado o registro no órgão competente, vedadas ao Poder Público a interferência e a intervenção na organização sindical;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "II - é vedada a criação de mais de uma organização sindical, em qualquer grau, representativa de categoria profissional ou econômica, na mesma base territorial, que será definida pelos trabalhadores ou empregadores interessados, não podendo ser inferior à área de um Município;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "III - ao sindicato cabe a defesa dos direitos e interesses coletivos ou individuais da categoria, inclusive em questões judiciais ou administrativas;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "IV - a assembléia geral fixará a contribuição que, em se tratando de categoria profissional, será descontada em folha, para custeio do sistema confederativo da representação sindical respectiva, independentemente da contribuição prevista em lei;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "V - ninguém será obrigado a filiar-se ou a manter-se filiado a sindicato;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "VI - é obrigatória a participação dos sindicatos nas negociações coletivas de trabalho;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "VII - o aposentado filiado tem direito a votar e ser votado nas organizações sindicais;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "VIII - é vedada a dispensa do empregado sindicalizado a partir do registro da candidatura a cargo de direção ou representação sindical e, se eleito, ainda que suplente, até um ano após o final do mandato, salvo se cometer falta grave nos termos da lei."
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "Parágrafo único. As disposições deste artigo aplicam-se à organização de sindicatos rurais e de colônias de pescadores, atendidas as condições que a lei estabelecer."
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "Art. 9º É assegurado o direito de greve, competindo aos trabalhadores decidir sobre a oportunidade de exercê-lo e sobre os interesses que devam por meio dele defender."
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "§ 1º A lei definirá os serviços ou atividades essenciais e disporá sobre o atendimento das necessidades inadiáveis da comunidade."
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "§ 2º Os abusos cometidos sujeitam os responsáveis às penas da lei."
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "Art. 10. É assegurada a participação dos trabalhadores e empregadores nos colegiados dos órgãos públicos em que seus interesses profissionais ou previdenciários sejam objeto de discussão e deliberação."
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "Art. 11. Nas empresas de mais de duzentos empregados, é assegurada a eleição de um representante destes com a finalidade exclusiva de promover-lhes o entendimento direto com os empregadores."
+            }
+          ]
+        },
+        "CAPÍTULO III": {
+          "conteudo": [
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "CAPÍTULO III"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "DA NACIONALIDADE"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "Art. 12. São brasileiros:"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "I - natos:"
+            },
+            {
+              "classe": "alinea",
+              "numero": "a)",
+              "texto": "a) os nascidos na República Federativa do Brasil, ainda que de pais estrangeiros, desde que estes não estejam a serviço de seu país;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "b) os nascidos no estrangeiro, de pai brasileiro ou mãe brasileira, desde que qualquer deles esteja a serviço da República Federativa do Brasil;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "c)",
+              "texto": "c) ;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "c)",
+              "texto": "c"
+            },
+            {
+              "classe": "alinea",
+              "numero": "c)",
+              "texto": "c) os nascidos no estrangeiro de pai brasileiro ou de mãe brasileira, desde que sejam registrados em repartição brasileira competente ou venham a residir na República Federativa do Brasil e optem, em qualquer tempo, depois de atingida a maioridade, pela nacionalidade brasileira; (Redação dada pela Emenda Constitucional nº 54, de 2007)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "c)",
+              "texto": "II - naturalizados:"
+            },
+            {
+              "classe": "alinea",
+              "numero": "a)",
+              "texto": "a) os que, na forma da lei, adquiram a nacionalidade brasileira, exigidas aos originários de países de língua portuguesa apenas residência por um ano ininterrupto e idoneidade moral;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "b) os estrangeiros de qualquer nacionalidade, residentes na República Federativa do Brasil há mais de quinze anos ininterruptos e sem condenação penal, desde que requeiram a nacionalidade brasileira. (Redação dada pela Emenda Constitucional de Revisão nº 3, de 1994)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "§ 1º Aos portugueses com residência permanente no País, se houver reciprocidade em favor de brasileiros, serão atribuídos os direitos inerentes ao brasileiro, salvo os casos previstos nesta Constituição. (Redação dada pela Emenda Constitucional de Revisão nº 3, de 1994)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "§ 2º A lei não poderá estabelecer distinção entre brasileiros natos e naturalizados, salvo nos casos previstos nesta Constituição."
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "§ 3º São privativos de brasileiro nato os cargos:"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "I - de Presidente e Vice-Presidente da República;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "II - de Presidente da Câmara dos Deputados;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "III - de Presidente do Senado Federal;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "IV - de Ministro do Supremo Tribunal Federal;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "V - da carreira diplomática;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "VI - de oficial das Forças Armadas."
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "VII - de Ministro de Estado da Defesa. (Incluído pela Emenda Constitucional nº 23, de 1999)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "§ 4º - Será declarada a perda da nacionalidade do brasileiro que:"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "I - tiver cancelada sua naturalização, por sentença judicial, em virtude de fraude relacionada ao processo de naturalização ou de atentado contra a ordem constitucional e o Estado Democrático; (Redação dada pela Emenda Constitucional nº 131, de 2023)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "II - fizer pedido expresso de perda da nacionalidade brasileira perante autoridade brasileira competente, ressalvadas situações que acarretem apatridia. (Redação dada pela Emenda Constitucional nº 131, de 2023)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "a)",
+              "texto": "a) revogada; (Redação dada pela Emenda Constitucional nº 131, de 2023)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "b) revogada. (Redação dada pela Emenda Constitucional nº 131, de 2023)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "§ 5º A renúncia da nacionalidade, nos termos do inciso II do § 4º deste artigo, não impede o interessado de readquirir sua nacionalidade brasileira originária, nos termos da lei. (Incluído pela Emenda Constitucional nº 131, de 2023)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "Art. 13. A língua portuguesa é o idioma oficial da República Federativa do Brasil."
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "§ 1º São símbolos da República Federativa do Brasil a bandeira, o hino, as armas e o selo nacionais."
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "§ 2º Os Estados, o Distrito Federal e os Municípios poderão ter símbolos próprios."
+            }
+          ]
+        },
+        "CAPÍTULO IV": {
+          "conteudo": [
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "CAPÍTULO IV"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "DOS DIREITOS POLÍTICOS"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "Art. 14. A soberania popular será exercida pelo sufrágio universal e pelo voto direto e secreto, com valor igual para todos, e, nos termos da lei, mediante:"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "I - plebiscito;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "II - referendo;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "III - iniciativa popular."
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "§ 1º O alistamento eleitoral e o voto são:"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "I - obrigatórios para os maiores de dezoito anos;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "II - facultativos para:"
+            },
+            {
+              "classe": "alinea",
+              "numero": "a)",
+              "texto": "a) os analfabetos;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "b) os maiores de setenta anos;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "c)",
+              "texto": "c) os maiores de dezesseis e menores de dezoito anos."
+            },
+            {
+              "classe": "alinea",
+              "numero": "c)",
+              "texto": "§ 2º Não podem alistar-se como eleitores os estrangeiros e, durante o período do serviço militar obrigatório, os conscritos."
+            },
+            {
+              "classe": "alinea",
+              "numero": "c)",
+              "texto": "§ 3º São condições de elegibilidade, na forma da lei:"
+            },
+            {
+              "classe": "alinea",
+              "numero": "c)",
+              "texto": "I - a nacionalidade brasileira;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "c)",
+              "texto": "II - o pleno exercício dos direitos políticos;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "c)",
+              "texto": "III - o alistamento eleitoral;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "c)",
+              "texto": "IV - o domicílio eleitoral na circunscrição;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "c)",
+              "texto": "V - a filiação partidária; Regulamento"
+            },
+            {
+              "classe": "alinea",
+              "numero": "c)",
+              "texto": "VI - a idade mínima de:"
+            },
+            {
+              "classe": "alinea",
+              "numero": "a)",
+              "texto": "a) trinta e cinco anos para Presidente e Vice-Presidente da República e Senador;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "b) trinta anos para Governador e Vice-Governador de Estado e do Distrito Federal;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "c)",
+              "texto": "c) vinte e um anos para Deputado Federal, Deputado Estadual ou Distrital, Prefeito, Vice-Prefeito e juiz de paz;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "d) dezoito anos para Vereador."
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "§ 4º São inelegíveis os inalistáveis e os analfabetos."
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "§ 5º O Presidente da República, os Governadores de Estado e do Distrito Federal, os Prefeitos e quem os houver sucedido, ou substituído no curso dos mandatos poderão ser reeleitos para um único período subseqüente. (Redação dada pela Emenda Constitucional nº 16, de 1997)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "§ 6º Para concorrerem a outros cargos, o Presidente da República, os Governadores de Estado e do Distrito Federal e os Prefeitos devem renunciar aos respectivos mandatos até seis meses antes do pleito."
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "§ 7º São inelegíveis, no território de jurisdição do titular, o cônjuge e os parentes consangüíneos ou afins, até o segundo grau ou por adoção, do Presidente da República, de Governador de Estado ou Território, do Distrito Federal, de Prefeito ou de quem os haja substituído dentro dos seis meses anteriores ao pleito, salvo se já titular de mandato eletivo e candidato à reeleição."
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "§ 8º O militar alistável é elegível, atendidas as seguintes condições:"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "I - se contar menos de dez anos de serviço, deverá afastar-se da atividade;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "II - se contar mais de dez anos de serviço, será agregado pela autoridade superior e, se eleito, passará automaticamente, no ato da diplomação, para a inatividade."
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "."
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "§ 9º Lei complementar estabelecerá outros casos de inelegibilidade e os prazos de sua cessação, a fim de proteger a probidade administrativa, a moralidade para exercício de mandato considerada vida pregressa do candidato, e a normalidade e legitimidade das eleições contra a influência do poder econômico ou o abuso do exercício de função, cargo ou emprego na administração direta ou indireta. (Redação dada pela Emenda Constitucional de Revisão nº 4, de 1994)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "§ 10 - O mandato eletivo poderá ser impugnado ante a Justiça Eleitoral no prazo de quinze dias contados da diplomação, instruída a ação com provas de abuso do poder econômico, corrupção ou fraude."
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "§ 11 - A ação de impugnação de mandato tramitará em segredo de justiça, respondendo o autor, na forma da lei, se temerária ou de manifesta má-fé."
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "§ 12. Serão realizadas concomitantemente às eleições municipais as consultas populares sobre questões locais aprovadas pelas Câmaras Municipais e encaminhadas à Justiça Eleitoral até 90 (noventa) dias antes da data das eleições, observados os limites operacionais relativos ao número de quesitos. (Incluído pela Emenda Constitucional nº 111, de 2021)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "§ 13. As manifestações favoráveis e contrárias às questões submetidas às consultas populares nos termos do § 12 ocorrerão durante as campanhas eleitorais, sem a utilização de propaganda gratuita no rádio e na televisão. (Incluído pela Emenda Constitucional nº 111, de 2021)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "Art. 15. É vedada a cassação de direitos políticos, cuja perda ou suspensão só se dará nos casos de:"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "I - cancelamento da naturalização por sentença transitada em julgado;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "II - incapacidade civil absoluta;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "III - condenação criminal transitada em julgado, enquanto durarem seus efeitos;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "IV - recusa de cumprir obrigação a todos imposta ou prestação alternativa, nos termos do art. 5º, VIII;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "V - improbidade administrativa, nos termos do art. 37, § 4º."
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "."
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "Art. 16. A lei que alterar o processo eleitoral entrará em vigor na data de sua publicação, não se aplicando à eleição que ocorra até um ano da data de sua vigência. (Redação dada pela Emenda Constitucional nº 4, de 1993)"
+            }
+          ]
+        },
+        "CAPÍTULO V": {
+          "conteudo": [
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "CAPÍTULO V"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "DOS PARTIDOS POLÍTICOS"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "Art. 17. É livre a criação, fusão, incorporação e extinção de partidos políticos, resguardados a soberania nacional, o regime democrático, o pluripartidarismo, os direitos fundamentais da pessoa humana e observados os seguintes preceitos: Regulamento"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "I - caráter nacional;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "II - proibição de recebimento de recursos financeiros de entidade ou governo estrangeiros ou de subordinação a estes;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "III - prestação de contas à Justiça Eleitoral;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "IV - funcionamento parlamentar de acordo com a lei."
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "§ 1º É assegurada aos partidos políticos autonomia para definir sua estrutura interna e estabelecer regras sobre escolha, formação e duração de seus órgãos permanentes e provisórios e sobre sua organização e funcionamento e para adotar os critérios de escolha e o regime de suas coligações nas eleições majoritárias, vedada a sua celebração nas eleições proporcionais, sem obrigatoriedade de vinculação entre as candidaturas em âmbito nacional, estadual, distrital ou municipal, devendo seus estatutos estabelecer normas de disciplina e fidelidade partidária. (Redação dada pela Emenda Constitucional nº 97, de 2017)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "§ 2º Os partidos políticos, após adquirirem personalidade jurídica, na forma da lei civil, registrarão seus estatutos no Tribunal Superior Eleitoral."
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "§ 3º Somente terão direito a recursos do fundo partidário e acesso gratuito ao rádio e à televisão, na forma da lei, os partidos políticos que alternativamente: (Redação dada pela Emenda Constitucional nº 97, de 2017)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "I - obtiverem, nas eleições para a Câmara dos Deputados, no mínimo, 3% (três por cento) dos votos válidos, distribuídos em pelo menos um terço das unidades da Federação, com um mínimo de 2% (dois por cento) dos votos válidos em cada uma delas; ou (Incluído pela Emenda Constitucional nº 97, de 2017)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "II - tiverem elegido pelo menos quinze Deputados Federais distribuídos em pelo menos um terço das unidades da Federação. (Incluído pela Emenda Constitucional nº 97, de 2017)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "§ 4º É vedada a utilização pelos partidos políticos de organização paramilitar."
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "§ 5º Ao eleito por partido que não preencher os requisitos previstos no § 3º deste artigo é assegurado o mandato e facultada a filiação, sem perda do mandato, a outro partido que os tenha atingido, não sendo essa filiação considerada para fins de distribuição dos recursos do fundo partidário e de acesso gratuito ao tempo de rádio e de televisão. (Incluído pela Emenda Constitucional nº 97, de 2017)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "§ 6º Os Deputados Federais, os Deputados Estaduais, os Deputados Distritais e os Vereadores que se desligarem do partido pelo qual tenham sido eleitos perderão o mandato, salvo nos casos de anuência do partido ou de outras hipóteses de justa causa estabelecidas em lei, não computada, em qualquer caso, a migração de partido para fins de distribuição de recursos do fundo partidário ou de outros fundos públicos e de acesso gratuito ao rádio e à televisão. (Incluído pela Emenda Constitucional nº 111, de 2021)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "§ 7º Os partidos políticos devem aplicar no mínimo 5% (cinco por cento) dos recursos do fundo partidário na criação e na manutenção de programas de promoção e difusão da participação política das mulheres, de acordo com os interesses intrapartidários. (Incluído pela Emenda Constitucional nº 117, de 2022)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "§ 8º O montante do Fundo Especial de Financiamento de Campanha e da parcela do fundo partidário destinada a campanhas eleitorais, bem como o tempo de propaganda gratuita no rádio e na televisão a ser distribuído pelos partidos às respectivas candidatas, deverão ser de no mínimo 30% (trinta por cento), proporcional ao número de candidatas, e a distribuição deverá ser realizada conforme critérios definidos pelos respectivos órgãos de direção e pelas normas estatutárias, considerados a autonomia e o interesse partidário. (Incluído pela Emenda Constitucional nº 117, de 2022)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "§ 9º Dos recursos oriundos do Fundo Especial de Financiamento de Campanha e do fundo partidário destinados às campanhas eleitorais, os partidos políticos devem, obrigatoriamente, aplicar 30% (trinta por cento) em candidaturas de pessoas pretas e pardas, nas circunscrições que melhor atendam aos interesses e às estratégias partidárias. (Incluído pela Emenda Constitucional nº 133, de 2024)"
+            }
+          ]
+        }
+      }
+    },
+    "TÍTULO III": {
+      "capitulos": {
+        "CAPÍTULO V": {
+          "conteudo": [
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "TÍTULO III"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "Da Organização do Estado"
+            }
+          ]
+        },
+        "CAPÍTULO I": {
+          "conteudo": [
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "CAPÍTULO I"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "DA ORGANIZAÇÃO POLÍTICO-ADMINISTRATIVA"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "Art. 18. A organização político-administrativa da República Federativa do Brasil compreende a União, os Estados, o Distrito Federal e os Municípios, todos autônomos, nos termos desta Constituição."
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "§ 1º Brasília é a Capital Federal."
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "§ 2º Os Territórios Federais integram a União, e sua criação, transformação em Estado ou reintegração ao Estado de origem serão reguladas em lei complementar."
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "§ 3º Os Estados podem incorporar-se entre si, subdividir-se ou desmembrar-se para se anexarem a outros, ou formarem novos Estados ou Territórios Federais, mediante aprovação da população diretamente interessada, através de plebiscito, e do Congresso Nacional, por lei complementar."
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "§ 4º A criação, a incorporação, a fusão e o desmembramento de Municípios, far-se-ão por lei estadual, dentro do período determinado por Lei Complementar Federal, e dependerão de consulta prévia, mediante plebiscito, às populações dos Municípios envolvidos, após divulgação dos Estudos de Viabilidade Municipal, apresentados e publicados na forma da lei. (Redação dada pela Emenda Constitucional nº 15, de 1996) Vide art. 96 - ADCT"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "Art. 19. É vedado à União, aos Estados, ao Distrito Federal e aos Municípios:"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "I - estabelecer cultos religiosos ou igrejas, subvencioná-los, embaraçar-lhes o funcionamento ou manter com eles ou seus representantes relações de dependência ou aliança, ressalvada, na forma da lei, a colaboração de interesse público;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "II - recusar fé aos documentos públicos;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "III - criar distinções entre brasileiros ou preferências entre si."
+            }
+          ]
+        },
+        "CAPÍTULO II": {
+          "conteudo": [
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "CAPÍTULO II"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "DA UNIÃO"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "Art. 20. São bens da União:"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "I - os que atualmente lhe pertencem e os que lhe vierem a ser atribuídos;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "II - as terras devolutas indispensáveis à defesa das fronteiras, das fortificações e construções militares, das vias federais de comunicação e à preservação ambiental, definidas em lei;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "III - os lagos, rios e quaisquer correntes de água em terrenos de seu domínio, ou que banhem mais de um Estado, sirvam de limites com outros países, ou se estendam a território estrangeiro ou dele provenham, bem como os terrenos marginais e as praias fluviais;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "IV as ilhas fluviais e lacustres nas zonas limítrofes com outros países; as praias marítimas; as ilhas oceânicas e as costeiras, excluídas, destas, as que contenham a sede de Municípios, exceto aquelas áreas afetadas ao serviço público e a unidade ambiental federal, e as referidas no art. 26, II; (Redação dada pela Emenda Constitucional nº 46, de 2005)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "V - os recursos naturais da plataforma continental e da zona econômica exclusiva;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "VI - o mar territorial;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "VII - os terrenos de marinha e seus acrescidos;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "VIII - os potenciais de energia hidráulica;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "IX - os recursos minerais, inclusive os do subsolo;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "X - as cavidades naturais subterrâneas e os sítios arqueológicos e pré-históricos;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XI - as terras tradicionalmente ocupadas pelos índios."
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "§ 1º É assegurada, nos termos da lei, à União, aos Estados, ao Distrito Federal e aos Municípios a participação no resultado da exploração de petróleo ou gás natural, de recursos hídricos para fins de geração de energia elétrica e de outros recursos minerais no respectivo território, plataforma continental, mar territorial ou zona econômica exclusiva, ou compensação financeira por essa exploração. (Redação dada pela Emenda Constitucional nº 102, de 2019) (Produção de efeito)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "§ 2º A faixa de até cento e cinqüenta quilômetros de largura, ao longo das fronteiras terrestres, designada como faixa de fronteira, é considerada fundamental para defesa do território nacional, e sua ocupação e utilização serão reguladas em lei."
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "Art. 21. Compete à União:"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "I - manter relações com Estados estrangeiros e participar de organizações internacionais;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "II - declarar a guerra e celebrar a paz;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "III - assegurar a defesa nacional;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "IV - permitir, nos casos previstos em lei complementar, que forças estrangeiras transitem pelo território nacional ou nele permaneçam temporariamente;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "V - decretar o estado de sítio, o estado de defesa e a intervenção federal;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "VI - autorizar e fiscalizar a produção e o comércio de material bélico;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "VII - emitir moeda;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "VIII - administrar as reservas cambiais do País e fiscalizar as operações de natureza financeira, especialmente as de crédito, câmbio e capitalização, bem como as de seguros e de previdência privada;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "IX - elaborar e executar planos nacionais e regionais de ordenação do território e de desenvolvimento econômico e social;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "X - manter o serviço postal e o correio aéreo nacional;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XI - explorar, diretamente ou mediante autorização, concessão ou permissão, os serviços de telecomunicações, nos termos da lei, que disporá sobre a organização dos serviços, a criação de um órgão regulador e outros aspectos institucionais; (Redação dada pela Emenda Constitucional nº 8, de 15/08/95:)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XII - explorar, diretamente ou mediante autorização, concessão ou permissão:"
+            },
+            {
+              "classe": "alinea",
+              "numero": "a)",
+              "texto": "a) os serviços de radiodifusão sonora, e de sons e imagens; (Redação dada pela Emenda Constitucional nº 8, de 15/08/95:)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "b) os serviços e instalações de energia elétrica e o aproveitamento energético dos cursos de água, em articulação com os Estados onde se situam os potenciais hidroenergéticos;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "c)",
+              "texto": "c) a navegação aérea, aeroespacial e a infra-estrutura aeroportuária;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "d) os serviços de transporte ferroviário e aquaviário entre portos brasileiros e fronteiras nacionais, ou que transponham os limites de Estado ou Território;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "e)",
+              "texto": "e) os serviços de transporte rodoviário interestadual e internacional de passageiros;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "f)",
+              "texto": "f) os portos marítimos, fluviais e lacustres;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "f)",
+              "texto": "XIII - organizar e manter o Poder Judiciário, o Ministério Público do Distrito Federal e dos Territórios e a Defensoria Pública dos Territórios; (Redação dada pela Emenda Constitucional nº 69, de 2012) (Produção de efeito)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "f)",
+              "texto": "XIV - organizar e manter a polícia civil, a polícia penal, a polícia militar e o corpo de bombeiros militar do Distrito Federal, bem como prestar assistência financeira ao Distrito Federal para a execução de serviços públicos, por meio de fundo próprio; (Redação dada pela Emenda Constitucional nº 104, de 2019)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "f)",
+              "texto": "XV - organizar e manter os serviços oficiais de estatística, geografia, geologia e cartografia de âmbito nacional;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "f)",
+              "texto": "XVI - exercer a classificação, para efeito indicativo, de diversões públicas e de programas de rádio e televisão;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "f)",
+              "texto": "XVII - conceder anistia;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "f)",
+              "texto": "XVIII - planejar e promover a defesa permanente contra as calamidades públicas, especialmente as secas e as inundações;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "f)",
+              "texto": "XIX - instituir sistema nacional de gerenciamento de recursos hídricos e definir critérios de outorga de direitos de seu uso; ( Regulamento )"
+            },
+            {
+              "classe": "alinea",
+              "numero": "f)",
+              "texto": "XX - instituir diretrizes para o desenvolvimento urbano, inclusive habitação, saneamento básico e transportes urbanos;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "f)",
+              "texto": "XXI - estabelecer princípios e diretrizes para o sistema nacional de viação;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "f)",
+              "texto": "XXII - executar os serviços de polícia marítima, aeroportuária e de fronteiras; (Redação dada pela Emenda Constitucional nº 19, de 1998)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "f)",
+              "texto": "XXIII - explorar os serviços e instalações nucleares de qualquer natureza e exercer monopólio estatal sobre a pesquisa, a lavra, o enriquecimento e reprocessamento, a industrialização e o comércio de minérios nucleares e seus derivados, atendidos os seguintes princípios e condições:"
+            },
+            {
+              "classe": "alinea",
+              "numero": "a)",
+              "texto": "a) toda atividade nuclear em território nacional somente será admitida para fins pacíficos e mediante aprovação do Congresso Nacional;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "b)",
+              "texto": "b) sob regime de permissão, são autorizadas a comercialização e a utilização de radioisótopos para pesquisa e uso agrícolas e industriais; (Redação dada pela Emenda Constitucional nº 118, de 2022)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "c)",
+              "texto": "c) sob regime de permissão, são autorizadas a produção, a comercialização e a utilização de radioisótopos para pesquisa e uso médicos; (Redação dada pela Emenda Constitucional nº 118, de 2022)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "d) a responsabilidade civil por danos nucleares independe da existência de culpa; (Incluída pela Emenda Constitucional nº 49, de 2006)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XXIV - organizar, manter e executar a inspeção do trabalho;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XXV - estabelecer as áreas e as condições para o exercício da atividade de garimpagem, em forma associativa."
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XXVI - organizar e fiscalizar a proteção e o tratamento de dados pessoais, nos termos da lei. (Incluído pela Emenda Constitucional nº 115, de 2022)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "Art. 22. Compete privativamente à União legislar sobre:"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "I - direito civil, comercial, penal, processual, eleitoral, agrário, marítimo, aeronáutico, espacial e do trabalho;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "II - desapropriação;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "III - requisições civis e militares, em caso de iminente perigo e em tempo de guerra;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "IV - águas, energia, informática, telecomunicações e radiodifusão;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "V - serviço postal;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "VI - sistema monetário e de medidas, títulos e garantias dos metais;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "VII - política de crédito, câmbio, seguros e transferência de valores;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "VIII - comércio exterior e interestadual;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "IX - diretrizes da política nacional de transportes;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "X - regime dos portos, navegação lacustre, fluvial, marítima, aérea e aeroespacial;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XI - trânsito e transporte;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XII - jazidas, minas, outros recursos minerais e metalurgia;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XIII - nacionalidade, cidadania e naturalização;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XIV - populações indígenas;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XV - emigração e imigração, entrada, extradição e expulsão de estrangeiros;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XVI - organização do sistema nacional de emprego e condições para o exercício de profissões;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XVII - organização judiciária, do Ministério Público do Distrito Federal e dos Territórios e da Defensoria Pública dos Territórios, bem como organização administrativa destes; (Redação dada pela Emenda Constitucional nº 69, de 2012) (Produção de efeito)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XVIII - sistema estatístico, sistema cartográfico e de geologia nacionais;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XIX - sistemas de poupança, captação e garantia da poupança popular;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XX - sistemas de consórcios e sorteios;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XXI - normas gerais de organização, efetivos, material bélico, garantias, convocação, mobilização, inatividades e pensões das polícias militares e dos corpos de bombeiros militares; (Redação dada pela Emenda Constitucional nº 103, de 2019)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XXII - competência da polícia federal e das polícias rodoviária e ferroviária federais;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XXIII - seguridade social;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XXIV - diretrizes e bases da educação nacional;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XXV - registros públicos;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XXVI - atividades nucleares de qualquer natureza;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XXVII - normas gerais de licitação e contratação, em todas as modalidades, para as administrações públicas diretas, autárquicas e fundacionais da União, Estados, Distrito Federal e Municípios, obedecido o disposto no art. 37, XXI, e para as empresas públicas e sociedades de economia mista, nos termos do art. 173, § 1°, III; (Redação dada pela Emenda Constitucional nº 19, de 1998)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XXVIII - defesa territorial, defesa aeroespacial, defesa marítima, defesa civil e mobilização nacional;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XXIX - propaganda comercial."
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XXX - proteção e tratamento de dados pessoais. (Incluído pela Emenda Constitucional nº 115, de 2022)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "Parágrafo único. Lei complementar poderá autorizar os Estados a legislar sobre questões específicas das matérias relacionadas neste artigo."
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "Art. 23. É competência comum da União, dos Estados, do Distrito Federal e dos Municípios:"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "I - zelar pela guarda da Constituição, das leis e das instituições democráticas e conservar o patrimônio público;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "II - cuidar da saúde e assistência pública, da proteção e garantia das pessoas portadoras de deficiência; (Vide ADPF 672)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "III - proteger os documentos, as obras e outros bens de valor histórico, artístico e cultural, os monumentos, as paisagens naturais notáveis e os sítios arqueológicos;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "IV - impedir a evasão, a destruição e a descaracterização de obras de arte e de outros bens de valor histórico, artístico ou cultural;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "V - proporcionar os meios de acesso à cultura, à educação, à ciência, à tecnologia, à pesquisa e à inovação; (Redação dada pela Emenda Constitucional nº 85, de 2015)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "VI - proteger o meio ambiente e combater a poluição em qualquer de suas formas;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "VII - preservar as florestas, a fauna e a flora;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "VIII - fomentar a produção agropecuária e organizar o abastecimento alimentar;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "IX - promover programas de construção de moradias e a melhoria das condições habitacionais e de saneamento básico; (Vide ADPF 672)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "X - combater as causas da pobreza e os fatores de marginalização, promovendo a integração social dos setores desfavorecidos;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XI - registrar, acompanhar e fiscalizar as concessões de direitos de pesquisa e exploração de recursos hídricos e minerais em seus territórios;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XII - estabelecer e implantar política de educação para a segurança do trânsito."
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "Parágrafo único. Leis complementares fixarão normas para a cooperação entre a União e os Estados, o Distrito Federal e os Municípios, tendo em vista o equilíbrio do desenvolvimento e do bem-estar em âmbito nacional. (Redação dada pela Emenda Constitucional nº 53, de 2006)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "Art. 24. Compete à União, aos Estados e ao Distrito Federal legislar concorrentemente sobre:"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "I - direito tributário, financeiro, penitenciário, econômico e urbanístico; (Vide Lei nº 13.874, de 2019)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "II - orçamento;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "III - juntas comerciais;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "IV - custas dos serviços forenses;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "V - produção e consumo;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "VI - florestas, caça, pesca, fauna, conservação da natureza, defesa do solo e dos recursos naturais, proteção do meio ambiente e controle da poluição;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "VII - proteção ao patrimônio histórico, cultural, artístico, turístico e paisagístico;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "VIII - responsabilidade por dano ao meio ambiente, ao consumidor, a bens e direitos de valor artístico, estético, histórico, turístico e paisagístico;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "IX - educação, cultura, ensino, desporto, ciência, tecnologia, pesquisa, desenvolvimento e inovação; (Redação dada pela Emenda Constitucional nº 85, de 2015)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "X - criação, funcionamento e processo do juizado de pequenas causas;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XI - procedimentos em matéria processual;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XII - previdência social, proteção e defesa da saúde; (Vide ADPF 672)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XIII - assistência jurídica e Defensoria pública;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XIV - proteção e integração social das pessoas portadoras de deficiência;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XV - proteção à infância e à juventude;"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "XVI - organização, garantias, direitos e deveres das polícias civis."
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "§ 1º No âmbito da legislação concorrente, a competência da União limitar-se-á a estabelecer normas gerais. (Vide Lei nº 13.874, de 2019)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "§ 2º A competência da União para legislar sobre normas gerais não exclui a competência suplementar dos Estados. (Vide Lei nº 13.874, de 2019)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "§ 3º Inexistindo lei federal sobre normas gerais, os Estados exercerão a competência legislativa plena, para atender a suas peculiaridades. (Vide Lei nº 13.874, de 2019)"
+            },
+            {
+              "classe": "alinea",
+              "numero": "d)",
+              "texto": "§ 4º A superveniência de lei federal sobre normas gerais suspende a eficácia da lei estadual, no que lhe for contrário. (Vide Lei nº 13.874, de 2019)"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

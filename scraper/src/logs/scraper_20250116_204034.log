@@ -1,0 +1,2 @@
+2025-01-16 20:40:36,980 - scraper.constitution - ERROR - Error during scraping process: search() got multiple values for argument 'pattern'
+2025-01-16 20:40:36,981 - __main__ - ERROR - Scraping failed
