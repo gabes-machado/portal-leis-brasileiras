@@ -1,3 +1,0 @@
-2025-01-16 20:32:35,917 - utils.http_client - ERROR - Error fetching https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm: 'utf-8' codec can't decode byte 0xe7 in position 102: invalid continuation byte
-2025-01-16 20:32:35,917 - scraper.constitution - ERROR - Failed to fetch constitution: Failed to fetch https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm: 'utf-8' codec can't decode byte 0xe7 in position 102: invalid continuation byte
-2025-01-16 20:32:35,918 - __main__ - INFO - Scraping completed successfully

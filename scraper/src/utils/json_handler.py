@@ -1,28 +1,32 @@
 """
 JSON handling utilities for constitution data.
 Author: gabes-machado
-Created: 2025-01-17 01:46:45 UTC
+Created: 2025-01-17 02:08:18 UTC
 """
 
 import json
+import pandas as pd
+from json.decoder import JSONDecodeError
 import logging
 from pathlib import Path
 from typing import Dict, Any, List, Optional
-from dataclasses import dataclass
-import pandas as pd
-from json.decoder import JSONDecodeError
+from dataclasses import dataclass, field
 
 logger = logging.getLogger(__name__)
+
+class JSONHandlerError(Exception):
+    """Custom exception for JSON handling errors"""
+    pass
 
 @dataclass
 class HierarchyConfig:
     """Configuration for hierarchical structure"""
-    COLUMNS: List[str] = (
+    COLUMNS: List[str] = field(default_factory=lambda: [
         "titulo", "capitulo", "secao", "subsecao",
         "artigo", "paragrafo", "inciso", "alinea"
-    )
+    ])
     
-    PLURAL_MAPPING: Dict[str, str] = {
+    PLURAL_MAPPING: Dict[str, str] = field(default_factory=lambda: {
         "titulo": "titulos",
         "capitulo": "capitulos",
         "secao": "secoes",
@@ -31,11 +35,17 @@ class HierarchyConfig:
         "paragrafo": "paragrafos",
         "inciso": "incisos",
         "alinea": "alineas"
-    }
+    })
 
-class JSONHandlerError(Exception):
-    """Custom exception for JSON handling errors"""
-    pass
+    @classmethod
+    def get_plural_mapping(cls) -> Dict[str, str]:
+        """Get the plural mapping dictionary"""
+        return cls().PLURAL_MAPPING
+
+    @classmethod
+    def get_columns(cls) -> List[str]:
+        """Get the columns list"""
+        return cls().COLUMNS
 
 class JSONHandler:
     """Handler for JSON operations with validation and error handling"""
@@ -68,7 +78,49 @@ class JSONHandler:
 
             for idx, row in df.iterrows():
                 try:
-                    cls._process_row(row, root, stats)
+                    current_level = root
+                    row_dict = row.to_dict()
+
+                    # Determine last hierarchical level
+                    used_cols = [
+                        c for c in HierarchyConfig.get_columns() 
+                        if pd.notna(row_dict.get(c))
+                    ]
+                    
+                    if not used_cols:
+                        stats["empty_rows"] += 1
+                        continue
+
+                    numero_col = used_cols[-1]
+                    numero_str = row_dict.get(numero_col)
+
+                    # Create entry
+                    entry = {
+                        "classe": numero_col,
+                        "numero": numero_str,
+                        "texto": row_dict["texto"]
+                    }
+
+                    # Build nested structure
+                    for col in used_cols:
+                        val = row_dict.get(col)
+                        if pd.isna(val):
+                            break
+                            
+                        plural_key = HierarchyConfig.get_plural_mapping()[col]
+                        current_level.setdefault(plural_key, {})
+                        current_level[plural_key].setdefault(str(val), {})
+                        current_level = current_level[plural_key][str(val)]
+
+                    # Add content
+                    current_level.setdefault("conteudo", []).append(entry)
+                    
+                    # Update statistics
+                    stats["processed_rows"] += 1
+                    stats["structure_elements"][numero_col] = (
+                        stats["structure_elements"].get(numero_col, 0) + 1
+                    )
+
                 except Exception as e:
                     logger.warning(f"Error processing row {idx}: {e}")
                     continue
@@ -91,7 +143,7 @@ class JSONHandler:
         Raises:
             JSONHandlerError: If validation fails
         """
-        required_columns = set(HierarchyConfig.COLUMNS + ["texto"])
+        required_columns = set(HierarchyConfig.get_columns() + ["texto"])
         missing_columns = required_columns - set(df.columns)
         
         if missing_columns:
@@ -104,110 +156,6 @@ class JSONHandler:
         
         if df["texto"].isna().any():
             logger.warning("Found rows with missing text")
-
-    @classmethod
-    def _process_row(
-        cls, 
-        row: pd.Series, 
-        root: Dict[str, Any], 
-        stats: Dict[str, Any]
-    ) -> None:
-        """
-        Process a single DataFrame row into the nested structure
-        
-        Args:
-            row: DataFrame row to process
-            root: Root dictionary to update
-            stats: Statistics dictionary to update
-        """
-        current_level = root
-        row_dict = row.to_dict()
-
-        # Determine hierarchical structure
-        used_cols = [
-            c for c in HierarchyConfig.COLUMNS 
-            if pd.notna(row_dict.get(c))
-        ]
-        
-        if not used_cols:
-            stats["empty_rows"] += 1
-            return
-
-        numero_col = used_cols[-1]
-        numero_str = row_dict.get(numero_col)
-
-        # Update statistics
-        stats["processed_rows"] += 1
-        stats["structure_elements"][numero_col] = (
-            stats["structure_elements"].get(numero_col, 0) + 1
-        )
-
-        # Create content entry
-        entry = cls._create_entry(numero_col, numero_str, row_dict["texto"])
-
-        # Build nested structure
-        current_level = cls._build_nested_structure(
-            current_level, 
-            row_dict, 
-            used_cols
-        )
-
-        # Add content to current level
-        current_level.setdefault("conteudo", []).append(entry)
-
-    @staticmethod
-    def _create_entry(
-        numero_col: str, 
-        numero_str: Optional[str], 
-        texto: str
-    ) -> Dict[str, Any]:
-        """
-        Create a content entry with validation
-        
-        Args:
-            numero_col: Column name for the number
-            numero_str: Number string value
-            texto: Text content
-            
-        Returns:
-            Dict[str, Any]: Entry dictionary
-        """
-        return {
-            "classe": numero_col if numero_col else "texto",
-            "numero": numero_str,
-            "texto": texto.strip() if isinstance(texto, str) else texto
-        }
-
-    @staticmethod
-    def _build_nested_structure(
-        root: Dict[str, Any], 
-        row_dict: Dict[str, Any], 
-        used_cols: List[str]
-    ) -> Dict[str, Any]:
-        """
-        Build nested dictionary structure for a row
-        
-        Args:
-            root: Root dictionary to build from
-            row_dict: Row data dictionary
-            used_cols: List of columns used in hierarchy
-            
-        Returns:
-            Dict[str, Any]: Current level dictionary
-        """
-        current_level = root
-        
-        for col in used_cols:
-            val = row_dict.get(col)
-            if pd.isna(val):
-                break
-                
-            plural_key = HierarchyConfig.PLURAL_MAPPING[col]
-            current_level.setdefault(plural_key, {})
-            current_level[plural_key].setdefault(str(val), {})
-            current_level = current_level[plural_key][str(val)]
-            
-        return current_level
 
     @staticmethod
     def _log_processing_stats(stats: Dict[str, Any]) -> None:
@@ -256,7 +204,7 @@ class JSONHandler:
                 f"(size: {file_size/1024:.2f} KB)"
             )
 
-        except (OSError, JSONDecodeError) as e:
+        except Exception as e:
             logger.error(f"Error saving JSON: {e}")
             raise JSONHandlerError(f"Failed to save JSON: {str(e)}") from e
 
@@ -280,8 +228,9 @@ class JSONHandler:
                 logger.error("Root element is not a dictionary")
                 return False
 
-            # Validate required keys
-            for key in HierarchyConfig.PLURAL_MAPPING.values():
+            # Validate required keys using the mapping
+            plural_mapping = HierarchyConfig.get_plural_mapping()
+            for key in plural_mapping.values():
                 if key in data and not isinstance(data[key], dict):
                     logger.error(f"'{key}' is not a dictionary")
                     return False
