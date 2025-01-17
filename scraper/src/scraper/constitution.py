@@ -1,70 +1,227 @@
 """
 Main constitution scraper implementation.
 Author: gabes-machado
-Created: 2025-01-16 20:34:14 UTC
+Created: 2025-01-17 01:50:49 UTC
 """
 
 import logging
-from typing import Optional
+import asyncio
+from typing import Optional, Dict, Any
+from datetime import datetime, timedelta
+from pathlib import Path
 
-from utils.http_client import AsyncHTTPClient
+from utils.http_client import AsyncHTTPClient, HTTPClientError
 from utils.html_parser import HTMLParser
-from utils.data_transformer import ConstitutionTransformer
+from utils.constitution_structure import ConstitutionProcessor
 from utils.json_handler import JSONHandler
 
 logger = logging.getLogger(__name__)
 
+class ConstitutionScraperError(Exception):
+    """Custom exception for constitution scraping errors"""
+    pass
+
 class ConstitutionScraper:
-    def __init__(self, base_url: str = "https://www.planalto.gov.br"):
-        self.base_url = base_url
+    """Main scraper class for Brazilian Constitution"""
+
+    def __init__(
+        self, 
+        base_url: str = "https://www.planalto.gov.br",
+        max_retries: int = 3,
+        timeout: int = 30
+    ):
+        """
+        Initialize the constitution scraper
+        
+        Args:
+            base_url: Base URL for the Planalto website
+            max_retries: Maximum number of retry attempts
+            timeout: Request timeout in seconds
+        """
+        self.base_url = base_url.rstrip('/')
         self.constitution_path = "/ccivil_03/constituicao/constituicao.htm"
-        self.transformer = ConstitutionTransformer()
+        self.max_retries = max_retries
+        self.timeout = timeout
+        self.stats = self._init_stats()
+        
+        logger.info(
+            f"Initialized ConstitutionScraper "
+            f"(base_url={base_url}, max_retries={max_retries})"
+        )
+
+    def _init_stats(self) -> Dict[str, Any]:
+        """Initialize statistics tracking"""
+        return {
+            "start_time": None,
+            "end_time": None,
+            "total_elements": 0,
+            "processed_elements": 0,
+            "errors": 0,
+            "warnings": 0
+        }
+
+    def _update_stats(self, **kwargs) -> None:
+        """Update scraping statistics"""
+        self.stats.update(kwargs)
+
+    def _log_stats(self) -> None:
+        """Log scraping statistics"""
+        if self.stats["start_time"] and self.stats["end_time"]:
+            duration = self.stats["end_time"] - self.stats["start_time"]
+            logger.info(
+                f"Scraping completed in {duration.total_seconds():.2f} seconds"
+            )
+            logger.info(
+                f"Processed {self.stats['processed_elements']} of "
+                f"{self.stats['total_elements']} elements"
+            )
+            logger.info(f"Errors: {self.stats['errors']}")
+            logger.info(f"Warnings: {self.stats['warnings']}")
+
+    async def _fetch_html(self) -> str:
+        """
+        Fetch HTML content with retry logic
+        
+        Returns:
+            str: HTML content
+            
+        Raises:
+            ConstitutionScraperError: If fetching fails after retries
+        """
+        url = f"{self.base_url}{self.constitution_path}"
+        
+        for attempt in range(self.max_retries):
+            try:
+                async with AsyncHTTPClient(
+                    timeout=self.timeout,
+                    max_retries=2
+                ) as client:
+                    content = await client.get(url)
+                    
+                    if not content:
+                        raise ConstitutionScraperError("Empty response received")
+                        
+                    logger.info(
+                        f"Successfully fetched {len(content)} bytes "
+                        f"(attempt {attempt + 1}/{self.max_retries})"
+                    )
+                    return content
+                    
+            except HTTPClientError as e:
+                logger.warning(
+                    f"Attempt {attempt + 1}/{self.max_retries} failed: {e}"
+                )
+                if attempt == self.max_retries - 1:
+                    raise ConstitutionScraperError(
+                        f"Failed to fetch constitution after {self.max_retries} attempts"
+                    ) from e
+                await asyncio.sleep(2 ** attempt)  # Exponential backoff
+
+    def _validate_output_path(self, output_file: str) -> None:
+        """
+        Validate output file path
+        
+        Args:
+            output_file: Path to output file
+            
+        Raises:
+            ConstitutionScraperError: If path is invalid
+        """
+        try:
+            output_path = Path(output_file)
+            output_path.parent.mkdir(parents=True, exist_ok=True)
+            
+            if output_path.exists():
+                logger.warning(f"Output file {output_file} will be overwritten")
+                
+        except Exception as e:
+            raise ConstitutionScraperError(f"Invalid output path: {e}")
 
     async def scrape(self, output_file: str) -> bool:
         """
         Execute the complete scraping process
         
+        Args:
+            output_file: Path to save the JSON output
+            
         Returns:
-            bool: True if scraping was successful, False otherwise
+            bool: True if successful, False otherwise
         """
+        self._update_stats(start_time=datetime.utcnow())
+        
         try:
-            # Fetch HTML
+            # Validate output path
+            self._validate_output_path(output_file)
+
+            # Fetch HTML content
             html_content = await self._fetch_html()
             if not html_content:
-                logger.error("Failed to fetch HTML content")
-                return False
+                raise ConstitutionScraperError("Failed to fetch HTML content")
 
-            # Parse HTML
+            # Initialize parser and processor
             parser = HTMLParser(html_content)
             parser.remove_strike_tags()
-            paragraphs = parser.get_paragraphs()
+            processor = ConstitutionProcessor()
+            
+            # Process constitutional elements
+            elements = list(parser.iter_constitutional_elements())
+            self._update_stats(total_elements=len(elements))
+            
+            for idx, (element_type, number, title, text) in enumerate(elements, 1):
+                try:
+                    processor.process_element(element_type, number, title, text)
+                    self._update_stats(processed_elements=idx)
+                    
+                    if idx % 50 == 0:  # Progress update every 50 elements
+                        logger.info(
+                            f"Progress: {idx}/{len(elements)} "
+                            f"({idx/len(elements)*100:.1f}%)"
+                        )
+                        
+                except Exception as e:
+                    logger.error(f"Error processing element {idx}: {e}")
+                    self._update_stats(errors=self.stats["errors"] + 1)
 
-            if not paragraphs:
-                logger.error("No paragraphs found in HTML content")
-                return False
-
-            # Transform data
-            df = self.transformer.create_dataframe(paragraphs)
-            df = self.transformer.extract_hierarchical_structure(df)
-
-            # Convert to nested structure and save
-            nested_dict = JSONHandler.df_to_nested_dict(df)
-            JSONHandler.save_json(nested_dict, output_file)
-
+            # Validate and save results
+            result = processor.root.to_dict()
+            if not result:
+                raise ConstitutionScraperError("Empty processing result")
+                
+            JSONHandler.save_json(result, output_file)
+            
+            # Validate saved file
+            if not JSONHandler.validate_json(output_file):
+                raise ConstitutionScraperError("JSON validation failed")
+                
             logger.info(f"Constitution successfully saved to: {output_file}")
             return True
 
         except Exception as e:
-            logger.error(f"Error during scraping process: {e}")
+            logger.error(f"Scraping failed: {e}", exc_info=True)
+            self._update_stats(errors=self.stats["errors"] + 1)
             return False
+            
+        finally:
+            self._update_stats(end_time=datetime.utcnow())
+            self._log_stats()
 
-    async def _fetch_html(self) -> Optional[str]:
-        """Fetch HTML content from Planalto website"""
-        url = f"{self.base_url}{self.constitution_path}"
+    async def verify_structure(self, output_file: str) -> bool:
+        """
+        Verify the structure of a saved constitution file
         
-        async with AsyncHTTPClient() as client:
-            try:
-                return await client.get(url)
-            except Exception as e:
-                logger.error(f"Failed to fetch constitution: {e}")
-                return None
+        Args:
+            output_file: Path to the JSON file
+            
+        Returns:
+            bool: True if valid, False otherwise
+        """
+        try:
+            if not Path(output_file).exists():
+                logger.error(f"File not found: {output_file}")
+                return False
+
+            return JSONHandler.validate_json(output_file)
+            
+        except Exception as e:
+            logger.error(f"Verification failed: {e}")
+            return False

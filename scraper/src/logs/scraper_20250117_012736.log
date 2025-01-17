@@ -1,0 +1,7 @@
+2025-01-17 01:27:36,453 - scraper.constitution - ERROR - Error during scraping process: 'ConstitutionScraper' object has no attribute '_fetch_html'
+Traceback (most recent call last):
+  File "/workspaces/portal-leis-brasileiras/scraper/src/scraper/constitution.py", line 26, in scrape
+    html_content = await self._fetch_html()
+                         ^^^^^^^^^^^^^^^^
+AttributeError: 'ConstitutionScraper' object has no attribute '_fetch_html'
+2025-01-17 01:27:36,455 - __main__ - ERROR - Scraping failed
