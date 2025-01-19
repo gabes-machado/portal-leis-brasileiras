@@ -2,6 +2,7 @@
 HTML parsing utilities using BeautifulSoup.
 Author: gabes-machado
 Created: 2025-01-17 01:42:33 UTC
+Updated: 2025-01-19 20:04:33 UTC
 """
 
 from bs4 import BeautifulSoup, Tag
@@ -14,6 +15,7 @@ from enum import Enum
 logger = logging.getLogger(__name__)
 
 class ElementType(Enum):
+    """Types of constitutional elements"""
     PREAMBULO = "PREAMBULO"
     TITULO = "TITULO"
     CAPITULO = "CAPITULO"
@@ -23,6 +25,7 @@ class ElementType(Enum):
     PARAGRAFO = "PARAGRAFO"
     INCISO = "INCISO"
     ALINEA = "ALINEA"
+    ADCT = "ADCT"
 
 @dataclass
 class RegexPatterns:
@@ -34,18 +37,34 @@ class RegexPatterns:
     INCISO_NUMBER: Pattern = re.compile(r'^([IVXLCDM]+)')
     ALINEA: Pattern = re.compile(r'^[a-z]\)')
     ALINEA_LETTER: Pattern = re.compile(r'^([a-z])')
+    ADCT: Pattern = re.compile(r'ATO\s+DAS\s+DISPOSIÇÕES\s+CONSTITUCIONAIS\s+TRANSITÓRIAS', re.IGNORECASE)
 
 class HTMLParser:
     def __init__(self, html_content: str):
         """Initialize the HTML parser with content and patterns"""
         try:
-            self.soup = BeautifulSoup(html_content, 'html.parser')
+            # Try UTF-8 first
+            self.soup = BeautifulSoup(html_content, 'html.parser', from_encoding='utf-8')
+            
+            # Check if parsing was successful
+            if not self._validate_content_encoding():
+                # Try ISO-8859-1 if UTF-8 fails
+                self.soup = BeautifulSoup(html_content, 'html.parser', from_encoding='iso-8859-1')
+                
+                if not self._validate_content_encoding():
+                    logger.warning("Content encoding issues detected")
+            
             self.patterns = RegexPatterns()
             self._validate_html_content()
             logger.info("HTML Parser initialized successfully")
         except Exception as e:
             logger.error(f"Failed to initialize HTML parser: {e}")
             raise
+
+    def _validate_content_encoding(self) -> bool:
+        """Validate if the content was parsed with correct encoding"""
+        sample_text = self.soup.get_text()[:1000]
+        return not any('�' in text for text in sample_text)
 
     def _validate_html_content(self) -> None:
         """Validate the HTML content structure"""
@@ -113,6 +132,7 @@ class HTMLParser:
 
         # Define element checks in order of specificity
         element_checks = [
+            (self._check_adct, ElementType.ADCT),
             (self._check_titulo, ElementType.TITULO),
             (self._check_capitulo, ElementType.CAPITULO),
             (self._check_secao, ElementType.SECAO),
@@ -136,6 +156,12 @@ class HTMLParser:
         if not isinstance(text, str):
             return ""
         return " ".join(text.strip().split())
+
+    def _check_adct(self, text: str, p: Tag) -> Optional[Tuple[Optional[str], Optional[str]]]:
+        """Check if text is ADCT header"""
+        if self.patterns.ADCT.search(text):
+            return None, text
+        return None
 
     def _check_structural_element(self, text: str, p: Tag, keyword: str) -> Optional[Tuple[Optional[str], Optional[str]]]:
         """Generic checker for structural elements (título, capítulo, seção, subseção)"""
@@ -197,7 +223,7 @@ class HTMLParser:
             if p and isinstance(p, Tag):
                 text = self._clean_text(p.get_text())
                 if text and not any(keyword in text.upper() for keyword in 
-                    ['TÍTULO', 'CAPÍTULO', 'SEÇÃO', 'SUBSEÇÃO', 'ART.']):
+                    ['TÍTULO', 'CAPÍTULO', 'SEÇÃO', 'SUBSEÇÃO', 'ART.', 'ATO DAS DISPOSIÇÕES']):
                     return text
         except Exception as e:
             logger.error(f"Error extracting title: {e}")

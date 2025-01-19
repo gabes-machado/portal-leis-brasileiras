@@ -2,6 +2,7 @@
 JSON handling utilities for constitution data.
 Author: gabes-machado
 Created: 2025-01-17 02:08:18 UTC
+Updated: 2025-01-19 20:23:29 UTC
 """
 
 import json
@@ -9,7 +10,7 @@ import pandas as pd
 from json.decoder import JSONDecodeError
 import logging
 from pathlib import Path
-from typing import Dict, Any, List, Optional
+from typing import Dict, Any, List, Optional, TextIO
 from dataclasses import dataclass, field
 
 logger = logging.getLogger(__name__)
@@ -209,6 +210,29 @@ class JSONHandler:
             raise JSONHandlerError(f"Failed to save JSON: {str(e)}") from e
 
     @classmethod
+    def load_json(cls, file_obj: TextIO) -> Dict[str, Any]:
+        """
+        Load and parse JSON data from a file object
+        
+        Args:
+            file_obj: A file object opened in read mode
+            
+        Returns:
+            Dict[str, Any]: The parsed JSON data
+            
+        Raises:
+            JSONHandlerError: If loading or parsing fails
+        """
+        try:
+            return json.load(file_obj)
+        except JSONDecodeError as e:
+            logger.error(f"Failed to decode JSON: {e}")
+            raise JSONHandlerError(f"Invalid JSON format: {e}") from e
+        except Exception as e:
+            logger.error(f"Error loading JSON: {e}")
+            raise JSONHandlerError(f"Failed to load JSON: {e}") from e
+
+    @classmethod
     def validate_json(cls, file_path: str) -> bool:
         """
         Validate JSON file structure and content
@@ -221,7 +245,7 @@ class JSONHandler:
         """
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
-                data = json.load(f)
+                data = cls.load_json(f)
 
             # Validate structure
             if not isinstance(data, dict):

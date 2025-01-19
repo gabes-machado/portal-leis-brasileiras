@@ -2,18 +2,21 @@
 Main constitution scraper implementation.
 Author: gabes-machado
 Created: 2025-01-17 01:50:49 UTC
+Updated: 2025-01-19 20:25:35 UTC
 """
 
 import logging
 import asyncio
+import json
 from typing import Optional, Dict, Any
-from datetime import datetime, timedelta
+from datetime import datetime
 from pathlib import Path
 
 from utils.http_client import AsyncHTTPClient, HTTPClientError
 from utils.html_parser import HTMLParser
 from utils.constitution_structure import ConstitutionProcessor
 from utils.json_handler import JSONHandler
+from utils.schema import ConstitutionSchema
 
 logger = logging.getLogger(__name__)
 
@@ -43,6 +46,7 @@ class ConstitutionScraper:
         self.max_retries = max_retries
         self.timeout = timeout
         self.stats = self._init_stats()
+        self.schema_validator = ConstitutionSchema()
         
         logger.info(
             f"Initialized ConstitutionScraper "
@@ -57,12 +61,30 @@ class ConstitutionScraper:
             "total_elements": 0,
             "processed_elements": 0,
             "errors": 0,
-            "warnings": 0
+            "warnings": 0,
+            "element_counts": {
+                "preambulo": 0,
+                "titulos": 0,
+                "capitulos": 0,
+                "secoes": 0,
+                "subsecoes": 0,
+                "artigos": 0,
+                "paragrafos": 0,
+                "incisos": 0,
+                "alineas": 0,
+                "adct": 0
+            }
         }
 
     def _update_stats(self, **kwargs) -> None:
         """Update scraping statistics"""
         self.stats.update(kwargs)
+
+    def _update_element_count(self, element_type: str) -> None:
+        """Update element type counter"""
+        element_type = element_type.lower()
+        if element_type in self.stats["element_counts"]:
+            self.stats["element_counts"][element_type] += 1
 
     def _log_stats(self) -> None:
         """Log scraping statistics"""
@@ -75,6 +97,13 @@ class ConstitutionScraper:
                 f"Processed {self.stats['processed_elements']} of "
                 f"{self.stats['total_elements']} elements"
             )
+            
+            # Log element type statistics
+            logger.info("Element counts:")
+            for element_type, count in self.stats["element_counts"].items():
+                if count > 0:
+                    logger.info(f"  {element_type}: {count}")
+                    
             logger.info(f"Errors: {self.stats['errors']}")
             logger.info(f"Warnings: {self.stats['warnings']}")
 
@@ -171,6 +200,7 @@ class ConstitutionScraper:
                 try:
                     processor.process_element(element_type, number, title, text)
                     self._update_stats(processed_elements=idx)
+                    self._update_element_count(element_type)
                     
                     if idx % 50 == 0:  # Progress update every 50 elements
                         logger.info(
@@ -182,17 +212,18 @@ class ConstitutionScraper:
                     logger.error(f"Error processing element {idx}: {e}")
                     self._update_stats(errors=self.stats["errors"] + 1)
 
-            # Validate and save results
-            result = processor.root.to_dict()
+            # Get and validate result
+            result = processor.get_result()
             if not result:
                 raise ConstitutionScraperError("Empty processing result")
+            
+            # Validate against schema before saving
+            if not self.schema_validator.validate_data(result):
+                raise ConstitutionScraperError("Schema validation failed")
                 
+            # Save validated result
             JSONHandler.save_json(result, output_file)
             
-            # Validate saved file
-            if not JSONHandler.validate_json(output_file):
-                raise ConstitutionScraperError("JSON validation failed")
-                
             logger.info(f"Constitution successfully saved to: {output_file}")
             return True
 
@@ -220,7 +251,14 @@ class ConstitutionScraper:
                 logger.error(f"File not found: {output_file}")
                 return False
 
-            return JSONHandler.validate_json(output_file)
+            # Load and validate JSON
+            with open(output_file, 'r', encoding='utf-8') as f:
+                try:
+                    data = json.load(f)
+                    return self.schema_validator.validate_data(data)
+                except json.JSONDecodeError as e:
+                    logger.error(f"Invalid JSON format: {e}")
+                    return False
             
         except Exception as e:
             logger.error(f"Verification failed: {e}")
